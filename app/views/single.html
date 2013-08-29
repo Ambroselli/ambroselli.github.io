@@ -1,0 +1,21 @@
+<div class="posts">
+    <h1 class="content-subhead"><a href="#!/"><< All posts</a></h1>
+
+    <section class="post" ng-repeat="post in posts">
+        <header class="post-header">
+            <img class="post-avatar"
+                 alt="Avatar" src="http://lorempixel.com/48/48"
+                 height="48" width="48">
+
+            <h2 class="post-title">{{post.title}}</h2>
+
+            <p class="post-meta">
+                <a class="post-category post-category-js" href="#" ng-repeat="tag in post.tags">{{tag.title}}</a>
+            </p>
+        </header>
+
+        <div class="post-description">
+            <div markdown link="{{post.file}}"></div>
+        </div>
+    </section>
+</div>

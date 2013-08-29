@@ -1,0 +1,11 @@
+[
+  {
+    "title": "Sample post",
+    "slug": "sample-post",
+    "file": "sample-post.md",
+    "tags": [
+      {"title" : "Javascript"},
+      {"title": "AngularJS"}
+    ]
+  }
+]
