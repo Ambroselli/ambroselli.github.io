@@ -10,7 +10,7 @@ angular.module('blogApp')
         this.getPosts(function(data){
           for(var i=0; i< data.length; i++){
             if(data[i].slug === slug){
-              callback(data);
+              callback(data[i]);
             }
           }
         })
