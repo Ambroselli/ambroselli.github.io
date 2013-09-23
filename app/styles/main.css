@@ -43,8 +43,9 @@ a:focus {
     text-transform: uppercase;
 }
 .brand-tagline {
-    font-weight: 300;
+    font-weight: 500;
     color: #C0392B;
+    font-size: 1em;
 }
 
 .nav-list {

@@ -2,8 +2,8 @@
 
 angular.module('blogApp')
   .controller('MainCtrl', function ($scope, $window, Posts, $routeParams, progressbar) {
-    $scope.appTitle = "YOUR BLOG NAME";
-    $scope.appSubtitle = "YOUR SUBTITLE";
+    $scope.appTitle = "Bgular";
+    $scope.appSubtitle = "AngularJS + Markdown blog engine";
 
     $scope.$on(
         "$routeChangeSuccess",

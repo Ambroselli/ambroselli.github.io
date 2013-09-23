@@ -3,6 +3,8 @@
     "title": "Sample post",
     "slug": "sample-post",
     "file": "sample-post.md",
+    "avatar": "http://lorempixel.com/48/48",
+    "author": "bGular",
     "tags": [
       {"title" : "Javascript"},
       {"title": "AngularJS"}
