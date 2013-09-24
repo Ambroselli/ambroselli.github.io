@@ -11,7 +11,7 @@ AngularJS + Markdown Blog Engine
 ### Installing
 
 ####Clone this repository
-<pre><code>git clone https://github.com/hugodias/bgular.git && cd bgular</code></pre>
+<pre><code>git clone https://github.com/Ambejs/Ambe.git && cd Ambe</code></pre>
 
 ####Installing dependences
 <pre><code>npm install</code></pre>
