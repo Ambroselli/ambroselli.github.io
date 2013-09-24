@@ -1,5 +1,5 @@
-# Bgular
-AngularJS + Markdown blog engine
+# Ambe
+AngularJS + Markdown Blog Engine
 
 ---
 
