@@ -26,6 +26,6 @@ AngularJS + Markdown Blog Engine
 
 ####Usage
 Change the file `main.js` em `app/scripts/controller/` putting the information on your project.
-<pre><code>    $scope.appTitle = "Bgular";
+<pre><code>    $scope.appTitle = "Ambe";
     $scope.appSubtitle = "AngularJS + Markdown blog engine";
 </code></pre>

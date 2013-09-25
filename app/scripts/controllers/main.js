@@ -2,7 +2,7 @@
 
 angular.module('blogApp')
   .controller('MainCtrl', function ($scope, $window, Posts, $routeParams, progressbar) {
-    $scope.appTitle = "Bgular";
+    $scope.appTitle = "Ambe";
     $scope.appSubtitle = "AngularJS + Markdown blog engine";
 
     $scope.$on(
