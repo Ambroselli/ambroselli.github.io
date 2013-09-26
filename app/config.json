@@ -1,0 +1,15 @@
+{
+  "title": "Ambe",
+  "description": "AngularJS + Markdown blog engine",
+  "author": { 
+    "name": "Author Name",
+    "email": "author@email.com>",
+    "facebook": "http://www.facebook.com/myfacebook",
+    "twitter": "http://www.twitter.com/mytwitter",
+    "googleplus": "http://plus.google.com/mygoogleplus",
+  }
+  "copyright": {
+    "year": "2013"
+  },
+  "engine": "node 0.4.1"
+}
