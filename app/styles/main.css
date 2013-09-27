@@ -190,11 +190,19 @@ h2 a{
 }
 
 h2.post-title{
-    margin: 0;
+    font-size: 2em;
+    color: #222;
+    margin-bottom: 0.2em;
+    margin-top: 0;
 }
 
 h5.date{
     color: #aaa;
     margin: 0;
     font-weight: 300;
+}
+
+.post-header.inside{
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
 }
