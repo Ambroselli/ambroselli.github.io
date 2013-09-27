@@ -6,6 +6,7 @@
       alt="{{post.author}} avatar" data-ng-src="{{post.avatar}}"
       height="48" width="48">
       <h2 class="post-title"><a ng-href="#!/posts/{{post.slug}}">{{post.title}}</a></h2>
+      <h5 class="date">{{post.created | date:'dd/MM/yyyy'}}</h5>
     </header>
   </section>
 </div>

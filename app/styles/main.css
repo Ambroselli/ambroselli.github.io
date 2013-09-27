@@ -188,3 +188,13 @@ code{
 h2 a{
   color: #000;
 }
+
+h2.post-title{
+    margin: 0;
+}
+
+h5.date{
+    color: #aaa;
+    margin: 0;
+    font-weight: 300;
+}
