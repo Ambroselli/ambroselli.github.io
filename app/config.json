@@ -3,7 +3,10 @@
     "title": "Ambe",
     "description": "AngularJS + Markdown blog engine",
     "author": {
-      "name": "Ambe"
+      "name": "Ambe",
+      "googleplus": "12312312312",
+      "twitter": "mytwitter",
+      "github": "github"
     }
   }
 ]

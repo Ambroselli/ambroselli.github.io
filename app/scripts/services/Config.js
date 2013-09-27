@@ -5,9 +5,7 @@ angular.module('blogApp')
     return{
       make: function(){
         this.getConfigFile(function(data){
-          $rootScope.config = {};
-          $rootScope.config.title = data.title;
-          $rootScope.config.description = data.description;
+          $rootScope.config = data[0];
         });
       },
       getConfigFile: function(callback){

@@ -32,8 +32,8 @@
         <div class="sidebar pure-u">
             <header class="header">
                 <hgroup>
-                    <h1 class="brand-title">{{appTitle}}</h1>
-                    <h2 class="brand-tagline">{{appSubtitle}}</h2>
+                    <h1 class="brand-title">{{config.title}}</h1>
+                    <h2 class="brand-tagline">{{config.description}}</h2>
                 </hgroup>
             </header>
         </div>
@@ -47,13 +47,13 @@
                 <footer class="footer">
                     <div class="pure-menu pure-menu-horizontal pure-menu-open">
                         <ul>
-                            <li><a href="//plus.google.com/"
+                            <li><a data-ng-href="http://plus.google.com/{{config.author.googleplus}}"
                                        rel="author" target="_top" style="text-decoration:none;display:inline-block;color:#333;text-align:center; font:13px/16px arial,sans-serif;white-space:nowrap;">
-                                    <span style="display:inline-block;font-weight:bold;vertical-align:top;margin-right:5px; margin-top:0px;">{{appTitle}}</span><span style="display:inline-block;vertical-align:top;margin-right:13px; margin-top:0px;">on</span>
+                                    <span style="display:inline-block;font-weight:bold;vertical-align:top;margin-right:5px; margin-top:0px;">{{config.title}}</span><span style="display:inline-block;vertical-align:top;margin-right:13px; margin-top:0px;">on</span>
                                     <img src="//ssl.gstatic.com/images/icons/gplus-16.png" alt="Google+" style="border:0;width:16px;height:16px;"/>
                                     </a></li>
-                            <li><a href="http://twitter.com/">Twitter</a></li>
-                            <li><a href="http://github.com/">Github</a></li>
+                            <li><a data-ng-href="http://twitter.com/{{config.author.twitter}}">Twitter</a></li>
+                            <li><a data-ng-href="http://twitter.com/{{config.author.github}}">Github</a></li>
                         </ul>
                     </div>
                 </footer>
