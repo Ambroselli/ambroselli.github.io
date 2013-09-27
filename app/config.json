@@ -1,14 +1,10 @@
-{
-  "title": "Ambe",
-  "description": "AngularJS + Markdown blog engine",
-  "author": { 
-    "name": "Author Name",
-    "email": "author@email.com>",
-    "facebook": "myfacebook",
-    "twitter": "mytwitter",
-    "googleplus": "21312312313",
-  },
-  "copyright": {
-    "year": "2013"
+[
+  {
+    "title": "Ambe",
+    "description": "AngularJS + Markdown blog engine",
+    "author": {
+      "name": "Ambe"
+    }
   }
-}
+]
+

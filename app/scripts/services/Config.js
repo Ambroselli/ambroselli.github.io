@@ -10,7 +10,7 @@ angular.module('blogApp')
           $rootScope.config.description = data.description;
         });
       },
-      getConfigfile: function(callback){
+      getConfigFile: function(callback){
         $http.get('config.json').success(callback);
       }
     }
