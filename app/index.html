@@ -32,8 +32,8 @@
         <div class="sidebar pure-u">
             <header class="header">
                 <hgroup>
-                    <h1 class="brand-title">{{config.title}}</h1>
-                    <h2 class="brand-tagline">{{config.description}}</h2>
+                    <h1 class="brand-title" ng-bind="config.title"></h1>
+                    <h2 class="brand-tagline" ng-bind="config.description"></h2>
                 </hgroup>
             </header>
         </div>
@@ -74,6 +74,7 @@
     </script>
 
     <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/showdown/0.3.1/showdown.min.js"></script>
 
         <!-- build:js scripts/modules.js -->
