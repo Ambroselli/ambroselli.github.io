@@ -10,6 +10,9 @@ angular.module('blogApp', ['ngProgress', 'ngRoute'])
       .when('/posts/:postTitle', {
         templateUrl: 'views/single.html'
       })
+      .when('/category/:category', {
+        templateUrl: 'views/main.html'
+      })
       .otherwise({
         redirectTo: '/'
       });

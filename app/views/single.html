@@ -7,10 +7,10 @@
                  alt="{{post.author}} Avatar" data-ng-src="{{post.avatar}}"
                  height="48" width="48">
 
-            <h2 class="post-title">{{post.title}}</h2>
+            <h2 class="post-title" ng-bind="post.title"></h2>
 
               <p class="post-meta">
-                  By <a href="#" class="post-author">{{post.author}}</a> under <a class="post-category post-category-js" href="#" ng-repeat="tag in post.tags">{{tag.title}}</a>
+                  <a class="post-category post-category-js" href="#/{{tag.title}}" ng-repeat="tag in post.tags" ng-bind="tag.title"></a>
               </p>
         </header>
 

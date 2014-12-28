@@ -1,14 +1,11 @@
 <div class="posts">
   <h1 class="content-subhead">Recent Posts</h1>
-  <section class="post" ng-repeat="post in posts">
+  <section class="post" ng-repeat="post in posts | matchesCategory">
+    <a ng-href="#!/posts/{{post.slug}}">
     <header class="post-header">
-      <img class="post-avatar"
-      alt="{{post.author}} avatar" data-ng-src="{{post.avatar}}"
-      height="48" width="48">
-      <h2 class="post-title"><a ng-href="#!/posts/{{post.slug}}">{{post.title}}</a></h2>
-      <p class="post-meta">
-          By <a href="#" class="post-author">{{post.author}}</a>
-      </p>
+      <h2 class="post-title" ng-bind="post.title"></h2>
     </header>
+    <h1 class="content-outline" ng-bind="post.outline"></h1>
+    </a>
   </section>
 </div>

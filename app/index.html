@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="fragment" content="!" />
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.2.1/pure-min.css">
+    <!-- <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.2.1/pure-min.css"> -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,100' rel='stylesheet' type='text/css'>
         <!-- build:css(styles) styles/main.css -->
         <link rel="stylesheet" href="styles/main.css">
@@ -44,19 +44,14 @@
                 <!-- A wrapper for all the blog posts -->
                 <div class="container" ng-view=""></div>
 
-                <footer class="footer">
+                <!-- <footer class="footer">
                     <div class="pure-menu pure-menu-horizontal pure-menu-open">
                         <ul>
-                            <li><a data-ng-href="http://plus.google.com/{{config.author.googleplus}}"
-                                       rel="author" target="_top" style="text-decoration:none;display:inline-block;color:#333;text-align:center; font:13px/16px arial,sans-serif;white-space:nowrap;">
-                                    <span style="display:inline-block;font-weight:bold;vertical-align:top;margin-right:5px; margin-top:0px;">{{config.title}}</span><span style="display:inline-block;vertical-align:top;margin-right:13px; margin-top:0px;">on</span>
-                                    <img src="//ssl.gstatic.com/images/icons/gplus-16.png" alt="Google+" style="border:0;width:16px;height:16px;"/>
-                                    </a></li>
                             <li><a data-ng-href="http://twitter.com/{{config.author.twitter}}">Twitter</a></li>
                             <li><a data-ng-href="http://twitter.com/{{config.author.github}}">Github</a></li>
                         </ul>
                     </div>
-                </footer>
+                </footer> -->
             </div>
         </div>
     </div>
@@ -75,7 +70,7 @@
 
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/showdown/0.3.1/showdown.min.js"></script>
+    <script src="bower_components/showdown/compressed/showdown.js"></script>
 
         <!-- build:js scripts/modules.js -->
         <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>

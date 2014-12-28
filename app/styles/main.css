@@ -7,16 +7,16 @@
 
 a {
     text-decoration: none;
-    color: #2980b9;
 }
-a:hover,
-a:focus {
+
+a:hover h2,
+a:focus h2 {
     text-decoration: underline;
 }
 
 /* LAYOUT CSS */
 #layout {
-    padding-left: 25%; /* "left col (nav + list)" width */
+    padding-left: 20%; /* "left col (nav + list)" width */
     position: relative;
 }
 
@@ -26,7 +26,7 @@ a:focus {
     bottom: 0;
     width: 25%;
     margin-left: -25%;
-    background: #E74C3C;
+    background: #2A2A2A; /*#E74C3C;*/
     color: #fff;
 }
 
@@ -72,13 +72,23 @@ a:focus {
 }
 
 .content-subhead {
-    text-transform: uppercase;
-    color: #aaa;
-    border-bottom: 1px solid #eee;
-    padding: 0.4em 0;
-    font-size: 80%;
-    font-weight: 500;
-    letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #aaa;
+  border-bottom: 1px solid #eee;
+  padding: 0.4em 0;
+  font-size: 80%;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+
+.content-outline {
+  color: #aaa;
+  border-bottom: 1px solid #efefef;
+  padding: 0.4em 0;
+  font-size: 80%;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  padding-bottom: 15px;
 }
 
 .content {

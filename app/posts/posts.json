@@ -1,11 +1,32 @@
 [
   {
     "title": "Sample post",
+    "outline": "This covers a very short sample",
     "slug": "sample-post",
     "file": "sample-post.md",
     "created": "2013-09-27",
-    "avatar": "http://lorempixel.com/48/48",
-    "author": "Ambe",
+    "tags": [
+      {"title" : "Javascript"},
+      {"title": "AngularJS"}
+    ]
+  },
+  {
+    "title": "Sample post",
+    "outline": "This covers a very short sample",
+    "slug": "sample-post",
+    "file": "sample-post2.md",
+    "created": "2013-09-27",
+    "tags": [
+      {"title" : "Javascript"},
+      {"title": "AngularJS"}
+    ]
+  },
+  {
+    "title": "Sample post",
+    "outline": "This covers a very short sample",
+    "slug": "sample-post",
+    "file": "sample-post3.md",
+    "created": "2013-09-27",
     "tags": [
       {"title" : "Javascript"},
       {"title": "AngularJS"}
