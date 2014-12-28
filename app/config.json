@@ -1,13 +1,11 @@
 [
   {
-    "title": "Ambe",
-    "description": "AngularJS Markdown blog engine",
+    "title": "Hacklog",
+    "description": "My personal logbook",
     "author": {
       "name": "Ambe",
-      "googleplus": "12312312312",
-      "twitter": "mytwitter",
-      "github": "github"
+      "twitter": "CarlosAmbrosius",
+      "github": "CarlAmbroselli"
     }
   }
 ]
-
